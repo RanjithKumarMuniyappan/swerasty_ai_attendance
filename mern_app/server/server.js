@@ -4,6 +4,9 @@ const axios = require('axios');
 const FormData = require('form-data');
 const multer = require('multer'); // To handle file uploads from React
 
+
+const PORT = 5000;
+
 const app = express();
 const upload = multer({ storage: multer.memoryStorage() }); // Store file in memory
 
