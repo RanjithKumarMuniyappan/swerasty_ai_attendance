@@ -1,0 +1,8 @@
+module.exports = {
+    VALIDATION_ERROR:400,
+    UNAUTHORIZED_ERROR:401,
+    FORBIDDENT:403,
+    NOT_FOUND:404,
+    SERVER_ERROR:500,
+    AI_SERVICE_URL : 'http://127.0.0.1:8000/recognize'
+}
