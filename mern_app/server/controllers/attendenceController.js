@@ -14,7 +14,7 @@ const getAttendenceOfTheDate = (req, res)=>{
 
 
 // @description : get attendance of a day by date
-// @route : GET /api/attendence/:date
+// @route : GET /api/attendence/date/:date
 // @access : public
 const getAttendanceById = (req, res)=>{
     
